@@ -1,0 +1,34 @@
+1.downlaod tema starbootsrap 
+2. bootsrap 5 pilih dashboard 
+3. buat migration 
+4. dataatbles boostsrap 5 ambil css dan js
+5. instal yajra 
+6. instal sweetalert 
+laravel filemanger
+7. ckeEditor
+8. instal aos
+
+
+
+
+
+                        <tr>
+                            <td> {{ $loop->iteration }} </td>
+                            <td> {{ $item->title }} </td>
+                            <td> {{ $item->Category->name }} </td>
+                            <td> {{ $item->views }}x </td>
+                            @if ($item->status == 0)
+                                <td>
+                                    
+                                </td>
+                            @else
+                                <td>
+                                   
+                                </td>
+                            @endif
+                            <td> {{ $item->publish_date }} </td>
+                            <td class="text-center">
+                                
+                            </td>
+                        </tr>
+                    @endforeach
